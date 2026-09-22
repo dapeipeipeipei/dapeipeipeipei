@@ -1,166 +1,64 @@
-# Hi there 👋 This is Wenshuo Pei
+## Wenshuo Pei
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI%2FML+Enthusiast;Computer+Science+Student" alt="Typing SVG" />
-</div>
+**Computer Science (Honours Co-op), Concordia University — BSc expected April 2027.** Montreal, Canada.
 
-<br>
+I build full-stack systems and applied-ML pipelines, and I spend most of my attention on the seam between
+them: getting a model's output to survive contact with real sensors, real users, and a real latency budget.
 
-<div align="center">
+**Currently** — Software Developer Intern at **HAW Landshut** (Germany), working on *FrostWatch*: a geospatial
+frost-risk monitoring module for a Chilean orchard prediction platform. Four heterogeneous data sources
+(physical sensor stations, OpenWeatherMap, third-party forecasts, an in-house XGBoost + PCA model) reconciled
+over AWS AppSync into a live Leaflet map covering 30+ weather stations.
 
-### 🎓 Computer Science @ Concordia University | 🇨🇦 Montreal, Canada
-**Canadian PR | Software Developer Intern**
-
-</div>
-
----
-
-<h2 align="center"> Tech Stack & Tools</h2>
-
-<div align="center">
-
-###  Programming Languages
-<p>
-<img src="https://skillicons.dev/icons?i=java,python,cpp,c,javascript,html,css,r&theme=dark" />
-</p>
-
-###  Frameworks & Libraries  
-<p>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,flask,bootstrap,tailwind,jquery,materialui&theme=dark" />
-</p>
-
-###  Databases & Cloud
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgresql,aws,gcp,firebase,redis&theme=dark" />
-</p>
-
-###  Tools & Technologies
-<p>
-<img src="https://skillicons.dev/icons?i=git,docker,kubernetes,linux,vscode,figma,postman,github&theme=dark" />
-</p>
-
-</div>
+**Also** — Full-Stack Developer & LLM Research Assistant at **Concordia University** (NSERC USRA / Mitacs),
+building an AI travel-planning platform and the evaluation tooling around its LLM itinerary pipeline.
 
 ---
 
-<h2 align="center"> What I'm Working On</h2>
+### Open to
 
-<div align="center">
-
-```typescript
-interface Developer {
-  name: string;
-  role: string[];
-  currentProjects: string[];
-  learning: string[];
-  interests: string[];
-}
-
-const wenshuo: Developer = {
-  name: "Wenshuo Pei",
-  role: ["Full Stack Developer"],
-  currentProjects: [
-    " AI Travel Assistant",
-    " Concord Travel Platform"
-  ],
-  learning: ["Machine Learning", "React", "Cloud Computing", "System Design"],
-  interests: ["AI", "Full Stack", "Game Dev", "Travel Tech", "Open Source"]
-};
-```
-
-</div>
+`2027 New Grad SWE` · `Summer 2027 Internship` · `Winter 2027 Co-op` — Canada, United States, or remote.
+Canadian PR, no sponsorship required in Canada. Strongest interest in **applied ML / LLM systems** and
+**backend + data infrastructure**.
 
 ---
 
-<h2 align="center"> Featured Projects</h2>
+### Public repositories
 
-<div align="center">
+| Repository | What it is | Stack |
+| --- | --- | --- |
+| **[EatWhat](https://github.com/dapeipeipeipei/EatWhat)** · [live](https://eat-what-rho.vercel.app) | Full-stack nutrition and fitness planner — meal plans, recipe library, pantry and shopping state, activity logging, statistics, and an LLM assistant over the user's own history. Installable PWA. | Next.js 15, React 19, TypeScript, Prisma 7, PostgreSQL, Supabase Realtime, NextAuth, OpenAI, Tailwind |
+| **[schengen-slot-sentinel](https://github.com/dapeipeipeipei/schengen-slot-sentinel)** | Headless watcher for German consulate Schengen appointment slots, with Telegram alerting and an optional guarded auto-booking path. Adversarial tests around the booking flow, because the failure mode here is booking the wrong thing. | Python, Playwright, Telegram Bot API |
 
-<table>
-<tr>
-<td width="50%">
-
-###  Concord AI Travel Platform
-**LLM-Powered Trip Planner**
-- Flask API + React Frontend  
-- In-house LLM for Multi-day Itineraries  
-- Real-time Collaborative Editing  
-- Dynamic JSON Generation
-
-`Tech: Flask | React | MongoDB | WebSocket | LLM`
-
-</td>
-<td width="50%">
-
-###  Real-Time Group Chat Platform
-**Scalable Messaging System**
-- 1,000+ Concurrent Users  
-- WebSocket-based Messaging  
-- JWT Role-based Access Control  
-- Tour Management APIs
-
-`Tech: Node.js | WebSocket | PostgreSQL | Prisma`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-###  Concord Registration Studio  
-**Multilingual Onboarding System**
-- React + TypeScript Frontend  
-- Real-time Validation & Auto-Recovery  
-- WCAG-Compliant Responsive Design  
-- Offline-First Data Storage
-
-`Tech: React | TypeScript | IndexedDB | i18n`
-
-</td>
-<td width="50%">
-
-###  Map Visualization Module
-**Dynamic Geo-Rendering**
-- React Frontend Integration  
-- Mapbox Real-time Route Display  
-- Location Markers & Filters  
-- Backend Data Fetch & Sync
-
-`Tech: React | Mapbox | Flask | WebSocket`
-</td>
-</tr>
-</table>
-
-</div>
-
+Most of my largest systems are university research IP or client work and are not open-sourceable. Those are
+summarized below, and written up in more depth in my portfolio.
 
 ---
 
-<div align="center">
+### Work I can't open-source
 
-##  Connect With Me
-
-<a href="https://www.linkedin.com/in/wenshuo-pei-24890321a/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:peiwenshuo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-<a href="https://github.com/peiwenshuo">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-</div>
+- **FrostWatch** — geospatial frost-risk map, shipped as an additive React 18 / TypeScript route with zero
+  backend schema changes, merged to production through peer-reviewed PRs. Diagnostics engine cross-validates
+  the four sources to surface sensor faults, stale data, and micro-climate cold-air pooling that coarse grid
+  models miss. 39 unit tests, 5-minute auto-refresh.
+- **AI travel-planning platform** — React / Node.js / Flask / PostgreSQL, 1,000+ concurrent users over
+  WebSocket; LLM itinerary pipeline serving 500+ daily requests with a 40% inference-latency reduction.
+  Fine-tuned transformers on 50,000+ structured reasoning examples; LoRA vs. prefix-tuning comparison, plus
+  evaluation workflows for consistency scoring and hallucination detection.
+- **Travel-domain RAG pipeline** — chunking, embedding, and ranking ablations that cut irrelevant retrievals
+  by 35%.
 
 ---
 
-<div align="center">
+### Technical focus
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn" />
+**Languages** — Python, TypeScript / JavaScript, C / C++, Java, SQL
+**ML** — PyTorch, scikit-learn, XGBoost, LLM fine-tuning (LoRA, prefix-tuning), RAG, evaluation and benchmarking
+**Web** — React, React Native, Next.js, Node.js, Flask, GraphQL, REST, WebSocket
+**Infrastructure** — AWS (Amplify, AppSync, Lambda, DynamoDB, S3), Docker, CI/CD, PostgreSQL, MongoDB, Supabase
 
-**"Building the future, one commit at a time"** ✨
+---
 
-<img src="https://komarev.com/ghpvc/?username=peiwenshuo&style=flat-square&color=blue" alt="Profile views"/>
+### Contact
 
-</div>
-
-
+[peiwenshuo@gmail.com](mailto:peiwenshuo@gmail.com) · [LinkedIn](https://www.linkedin.com/in/wenshuo-pei-24890321a/)
